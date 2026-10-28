@@ -1,0 +1,4 @@
+/Users/elsa/Projects/crtboard-display/build/CMakeFiles/crtboard.dir
+/Users/elsa/Projects/crtboard-display/build/CMakeFiles/crtboard-display.dir
+/Users/elsa/Projects/crtboard-display/build/CMakeFiles/edit_cache.dir
+/Users/elsa/Projects/crtboard-display/build/CMakeFiles/rebuild_cache.dir
