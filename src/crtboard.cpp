@@ -15,4 +15,7 @@ int main() {
                                   }
                                   std::cout << std::endl;
                                 });
+  while (true) {
+    serial.recvPacket();
+  }
 }
