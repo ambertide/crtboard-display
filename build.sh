@@ -1,4 +1,4 @@
-docker buildx build -t crtboard-display:latest .
+docker buildx build -t crtboard-display:latest --build-arg BUILD_TYPE=$BUILD_TYPE .
 container=$(docker create crtboard-display:latest)
 mkdir build
 docker cp ${container}:/bin/crtboard-display ./build/crtboard-build
