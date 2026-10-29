@@ -11,7 +11,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          apt install cmake
+          sudo apt install cmake
       
       - name: Build
         run: mkdir build && cd build && cmake .. && make
