@@ -4,15 +4,22 @@
 #include <memory>
 #include <stdint.h>
 #include <unordered_map>
+#include <vector>
 
 namespace crtboard {
 
-typedef std::function<void(std::unique_ptr<uint8_t>, int)> OnPacketRecvCallback;
+typedef std::function<void(std::unique_ptr<uint8_t[]>, int)>
+    OnPacketRecvCallback;
 
 class Serial {
 private:
   std::unordered_map<PacketType, OnPacketRecvCallback> callbacks;
+  std::vector<uint8_t> bytebuffer;
   int serialFileDescriptor;
+
+  uint8_t readByte();
+  PacketType parsePacketType();
+  int ParsePacketSize();
 
 public:
   Serial();
