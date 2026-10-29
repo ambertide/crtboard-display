@@ -1,0 +1,17 @@
+name: Build
+on:
+  push:
+jobs:
+  build-project:
+    name: Build Project
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout Project
+        uses: actions/checkout@v7
+
+      - name: Install Dependencies
+        run: |
+          apt install cmake
+      
+      - name: Build
+        run: mkdir build && cd build

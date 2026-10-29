@@ -83,12 +83,12 @@ clean: CMakeFiles/crtboard-display.dir/clean
 CMakeFiles/crtboard.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/crtboard.dir/build.make CMakeFiles/crtboard.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/crtboard.dir/build.make CMakeFiles/crtboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/elsa/Projects/crtboard-display/build/CMakeFiles --progress-num=1,2 "Built target crtboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/elsa/Projects/crtboard-display/build/CMakeFiles --progress-num=1 "Built target crtboard"
 .PHONY : CMakeFiles/crtboard.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/crtboard.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/elsa/Projects/crtboard-display/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/elsa/Projects/crtboard-display/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/crtboard.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/elsa/Projects/crtboard-display/build/CMakeFiles 0
 .PHONY : CMakeFiles/crtboard.dir/rule
@@ -109,12 +109,12 @@ CMakeFiles/crtboard.dir/clean:
 CMakeFiles/crtboard-display.dir/all: CMakeFiles/crtboard.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/crtboard-display.dir/build.make CMakeFiles/crtboard-display.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/crtboard-display.dir/build.make CMakeFiles/crtboard-display.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/elsa/Projects/crtboard-display/build/CMakeFiles --progress-num=3,4 "Built target crtboard-display"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/elsa/Projects/crtboard-display/build/CMakeFiles --progress-num=2,3 "Built target crtboard-display"
 .PHONY : CMakeFiles/crtboard-display.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/crtboard-display.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/elsa/Projects/crtboard-display/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/elsa/Projects/crtboard-display/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/crtboard-display.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/elsa/Projects/crtboard-display/build/CMakeFiles 0
 .PHONY : CMakeFiles/crtboard-display.dir/rule

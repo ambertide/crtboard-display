@@ -4,7 +4,7 @@ project(crtboard VERSION 0.1 LANGUAGES C CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 20)
 
-add_library(crtboard STATIC src/Serial.cpp)
+add_library(crtboard OBJECT src/Serial.cpp)
 
 target_include_directories(crtboard PRIVATE include)
 

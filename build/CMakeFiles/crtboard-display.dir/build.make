@@ -88,11 +88,12 @@ crtboard__display_OBJECTS = \
 "CMakeFiles/crtboard-display.dir/src/crtboard.cpp.o"
 
 # External object files for target crtboard-display
-crtboard__display_EXTERNAL_OBJECTS =
+crtboard__display_EXTERNAL_OBJECTS = \
+"/Users/elsa/Projects/crtboard-display/build/CMakeFiles/crtboard.dir/src/Serial.cpp.o"
 
 crtboard-display: CMakeFiles/crtboard-display.dir/src/crtboard.cpp.o
+crtboard-display: CMakeFiles/crtboard.dir/src/Serial.cpp.o
 crtboard-display: CMakeFiles/crtboard-display.dir/build.make
-crtboard-display: libcrtboard.a
 crtboard-display: CMakeFiles/crtboard-display.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/elsa/Projects/crtboard-display/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable crtboard-display"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crtboard-display.dir/link.txt --verbose=$(VERBOSE)
