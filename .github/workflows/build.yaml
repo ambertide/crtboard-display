@@ -4,7 +4,7 @@ on:
 jobs:
   build-project:
     name: Build Project
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-24.04-arm
     steps:
       - name: Checkout Project
         uses: actions/checkout@v7
@@ -14,4 +14,11 @@ jobs:
           apt install cmake
       
       - name: Build
-        run: mkdir build && cd build
+        run: mkdir build && cd build && cmake .. && make
+
+      - name: Upload Artifact      
+      - uses: actions/upload-artifact@v7
+        with:
+          name: crtboard-display
+          path: build/crtboard-display
+          archive: false
