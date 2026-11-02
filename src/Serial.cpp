@@ -60,6 +60,8 @@ crtboard::PacketType crtboard::Serial::parsePacketType() {
   switch (nextChar) {
   case 0:
     return PacketType::DEBUG;
+  case 2:
+    return PacketType::DRAW;
   default:
     throw std::exception();
   }

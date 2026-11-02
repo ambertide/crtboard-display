@@ -1,8 +1,8 @@
 #pragma once
 #include "PacketType.hpp"
+#include <cstdint>
 #include <functional>
 #include <memory>
-#include <stdint.h>
 #include <unordered_map>
 #include <vector>
 

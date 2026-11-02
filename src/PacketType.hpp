@@ -1,5 +1,5 @@
 #pragma once
 
 namespace crtboard {
-enum PacketType { DEBUG = 0 };
+enum PacketType { DEBUG = 0, DRAW = 2 };
 }
